@@ -1,5 +1,5 @@
 {
-    "name": "okta/jwt-verifier",
+    "name": "genyaa/okta-jwt-verifier",
     "description": "A verifier library for working with Okta JWT's",
     "type": "library",
     "license": "Apache-2.0",
@@ -7,6 +7,10 @@
         {
             "name": "Brian Retterer",
             "email": "brian.retterer@okta.com"
+        },
+        {
+            "name": "Auke de Jong",
+            "email": "contact@genyaa.com"
         }
     ],
     "autoload": {
@@ -15,7 +19,7 @@
         }
     },
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.4 || ^8.0 || ^8.1",
         "nesbot/carbon": "^2.0",
         "psr/http-message": "^1.0",
         "php-http/client-common": "^2.3",
@@ -25,7 +29,7 @@
         "php-http/curl-client": "^2.1",
         "bretterer/iso_duration_converter": "^0.1.0",
         "ext-json": "*",
-        "illuminate/cache": "^8.83.1 || ^9.0"
+        "illuminate/cache": "^8.83.1 || ^9.0 || ^10.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0 ",
